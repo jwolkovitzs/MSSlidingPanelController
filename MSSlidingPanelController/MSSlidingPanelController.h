@@ -208,6 +208,13 @@ typedef NS_ENUM(NSUInteger, MSSPSideDisplayed)
  */
 @property (nonatomic, strong)           UIViewController                        *centerViewController;
 
+/**
+ *  The color of the center view status bar.
+ *
+ *  By default, this value is clearColor.
+ */
+@property (nonatomic, strong)           UIColor                                 *centerViewStatusBarColor;
+
 #pragma mark Left panel settings
 /** @name Left panel settings */
 

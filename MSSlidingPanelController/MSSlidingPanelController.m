@@ -93,13 +93,6 @@ typedef NS_ENUM(NSUInteger, MSSPPanTouchLocation)
 /** @name Status bar */
 
 /**
- *  The color of the center view status bar.
- *
- *  By default, this value is clearColor.
- */
-@property (nonatomic, strong)   UIColor                     *centerViewStatusBarColor;
-
-/**
  *  A view which is above the status bar.
  */
 @property (nonatomic, strong)   UIView                      *statusBarView;
